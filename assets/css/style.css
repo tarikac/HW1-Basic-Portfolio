@@ -98,15 +98,19 @@ p {
    
 }
 
+/* changed footer a few times. cuts off div for portfolio at smaller size*/
 .footer {
-    position: absolute;
+    /*clear: both;*/
+    position: fixed;
     bottom: 0;
     height: 50px;
     /*margin-top: 40px;*/
     width: 100%;
     background-color: #666666;
-    border-top: 8px solid #4aaaa5;    
+    border-top: 8px solid #4aaaa5;  
+    text-align: center;  
 }
+
 
 .textBlock h2 {
     position:relative;
