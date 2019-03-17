@@ -1,42 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Me</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-        <h1>Rika</h1>
 
-        <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li> <a href="contact.html">Contact</a></li>
-        </ul>
-    
+<body>
+       
+    <header>
         <div>
-            <h1>Contact</h1>
-            <!-- This may be a line divider -->
-           <p><img src="#" alt="will be a picture of me"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pellentesque sit amet mi et viverra. Ut ipsum
-            lacus, suscipit et lorem quis, sollicitudin luctus neque. Aenean dignissim tristique commodo. Morbi vulputate
-            pellentesque lectus at dignissim. Nunc elementum eros eu orci imperdiet, eget consectetur sapien gravida. Proin
-            sed felis ultricies mi volutpat porttitor. Curabitur accumsan eros eu fermentum pharetra.
+    <h1>Rika Common </h1>
+     <nav>    
+    <ul>
+        <li><a href="index.html">About  
+        </a></li>
+        <li><a href="portfolio.html">Portfolio </a></li>
+        <li> <a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>   
+</div>
+</header>
     
-            Integer hendrerit ex vel feugiat porttitor. Nunc maximus scelerisque tortor, et dignissim erat dictum a. Nullam
-            cursus fringilla porttitor. Donec in nunc eget erat tristique congue. Sed ut blandit felis, non bibendum velit.
-            Duis nec luctus magna. Phasellus ultricies neque a neque viverra, ut euismod lorem rutrum. Proin maximus risus
-            est, in ultrices turpis suscipit eu. Ut magna ipsum, elementum quis condimentum et, pellentesque convallis mi.
-            Pellentesque ullamcorper risus id semper cursus. Nulla facilisi. Morbi leo ante, pretium euismod blandit
-            blandit, dapibus in tortor. Nulla molestie nisl sit amet blandit tempus. Nam pellentesque est eu urna
-            ullamcorper, sit amet porta metus rhoncus. Vivamus ornare in neque vitae sagittis. Vivamus venenatis, tellus at
-            fringilla lobortis, diam nibh volutpat arcu, ut pretium urna tortor vitae ipsum. </p>
-        </div>
+<div class="container">  
+        <h2>
+            Contact
+        </h2> 
+
+        <!-- using a line to divide but could this be a border from above if set in its on div -->
+        <hr>
     
-        <div>
-            Footer Copyright
-        </div>
+        <form id="contact" action="" method="post">
+            <fieldset>
+               <div class="fields">
+
+            <p>  
+            <label for="name"> Name </label>
+            <input type="text" id="name" name="name" placeholder="John Smith"> 
+            </p> 
+              
+            <p>    
+            <labl for="email"> Email </labl>
+            <input type="email" id="emailaddress" name="emailaddress" placeholder="example@gmail.com">
+                </p> 
+            
+            <p> 
+            <label for="message">Message </label>
+            <textarea id="message" placeholder="Type your message here..."></textarea>
+            </p>
+
+            <input type="submit" value="Submit" class="submit-btn">
+        </div> 
+        </fieldset>
+        </form>
+        
+        
+       
+
+    </div> 
+
+
+    <footer class="footer">
+        Footer Copyright
+    </footer>
     
 </body>
+
 </html>
