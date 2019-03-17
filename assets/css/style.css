@@ -139,6 +139,10 @@ input[type=text], input[type=email], textarea {
     width: 100%;
     padding: 12px;   
 }
+
+textarea {
+    height: 100px;
+}
 .submit-btn {
     background-color: #4aaaa5;
     border: none;
